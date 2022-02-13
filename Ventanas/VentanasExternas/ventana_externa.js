@@ -6,7 +6,7 @@ function init() {
   let cerrar = document.querySelector(".cerrar");
 
   if (window.name === "pantalla-completa") {
-    pantallaCompleta.innerHTML += `<p>FullScreen se encuentra en desuso.</p>`;
+    document.querySelector('.mensaje').innerHTML = "El full screen esta en desuso";
   }
 
   document.querySelector(".autor").addEventListener("click", () => {

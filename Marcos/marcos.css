@@ -1,0 +1,27 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.formulario-container{
+    outline: black 1px solid;
+    height: 50vh;
+
+}
+
+.inferior-container{
+    display: flex;
+    background-color: red;
+    height: 50vh;
+}
+
+.izquierdo-container{
+    outline: black 1px solid;
+    width: 50%;
+}
+
+.derecho-container{
+    outline: black 1px solid;
+    width: 50%;
+}

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,20 +11,36 @@
 </head>
 <body>
     <div class="marcos-container">
-
         <div class="formulario-container">
             <h3>Escribe un texto, elige el contenedor y pulsa el botón para que escriba el texto en el contenedor</h1>
-            <p>Texto : <input type="text"></p> 
-            <section>
-            Contenedor: 
-            <input type="radio" name="Izquierdo" id="izquierdo">  
-            <input type="radio" name="Derecho" id="derecho">  
-            </section>
+                <p>Texto : <input type="text" class="entrada"></p>
+                <section>
+                    <p>Contenedor:</p>
+                    <label>
+                        Izquierdo <input type="radio" name="contenedor" id="izquierdo">
+                    </label>
+                    <label>
+                        Derecho <input type="radio" name="contenedor" id="derecho">
+                    </label>
+                </section>
+                <section class="botones">
+                    <button class="escribir">Escribir</button>
+                    <button class="reiniciar">Reiniciar</button>
+                </section>
         </div>
+        <div class="inferior-container">
+            <div class="izquierdo-container">
+                <h2>Contenedor izquierdo</h2>
+                <p class="mensaje-izquierdo"></p>
+            </div>
 
-
-
-   
-    </div> 
+            <div class="derecho-container">
+                <h2>Contenedor derecho</h2>
+                <input type="button" class="nombreContenedor" value="¿Cómo se llaman los contenedores?">
+                <p class="mensaje-derecho"></p>
+              
+            </div>
+        </div>
+    </div>
 </body>
-</html>   
+</html>
