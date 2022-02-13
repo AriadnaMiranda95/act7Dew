@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Allan:wght@700&family=DotGothic16&family=Lobster&family=Marvel:wght@700&family=Oswald&family=Staatliches&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+body{
+    height: 82vh;
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 86%);   
+}
+img{
+    width: 150px;
+    height: 150px;
+}
+
+img:hover{
+  
+    border: 2px solid aliceblue;
+}
+h1{
+    text-align: center;
+    margin: 0 0 .5em 0;
+    color: white;
+}
+
+
+.galeria-container{
+    margin: 130px auto;
+    width: 55%;
+}

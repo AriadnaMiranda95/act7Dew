@@ -1,27 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Allan:wght@700&family=DotGothic16&family=Lobster&family=Marvel:wght@700&family=Oswald&family=Staatliches&display=swap');
+
 *{
     margin:0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
 }
 
 .formulario-container{
-    outline: black 1px solid;
-    height: 50vh;
+    
+    background-color: pink;
+    height: 40vh;
+    display: flex;
+    flex-flow: column nowrap;
 
+}
+h3{
+    margin: .9em;
+}
+
+.texto{
+    margin: 1em;
+    
+}
+
+section{
+    margin: 1em;
+}
+
+.escribir, .reiniciar, .nombreContenedor{
+    padding: .5em 1em;
+    background-color: black;
+    color: white;
+    border-radius: .5em;
+}
+
+.escribir:hover, .reiniciar:hover, .nombreContenedor:hover{
+    background-color: white;
+    color: black;
 }
 
 .inferior-container{
     display: flex;
-    background-color: red;
+   
     height: 50vh;
+    background-color: rgb(198, 161, 233);
 }
 
 .izquierdo-container{
-    outline: black 1px solid;
     width: 50%;
+    margin:1em ;
+    border-right: white 3px solid ;
 }
 
 .derecho-container{
-    outline: black 1px solid;
-    width: 50%;
+     width: 50%;
+     margin:1em ;
 }
+
+.nombreContenedor{
+    margin: 2em 
+}
+
+
